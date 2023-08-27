@@ -4,7 +4,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/',
+            path: '/ffmpeg-sideshows/',
             component: () => import('@/views/index.vue')
         }
     ]
