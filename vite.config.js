@@ -11,7 +11,8 @@ export default defineConfig({
     },
   },
   build:{
-    outDir:'./docs'
+    outDir:'./docs',
+    assetsDir: '',
   },
   server: {
     // host: '0.0.0.0', //只能使用localhost
