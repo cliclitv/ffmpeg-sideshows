@@ -4,14 +4,16 @@ import path from "path"
 
 export default defineConfig({
   plugins: [vue()],
-  
+  // publicDir:'',
+  base: "https://cliclitv.github.io/ffmpeg-sideshows/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src")
     },
   },
-  build:{
-    outDir:'./docs',
+  build: {
+    outDir: './docs',
     assetsDir: '',
   },
   server: {
